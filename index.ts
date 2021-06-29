@@ -40,4 +40,16 @@ function fizzBuzz(n: number) {
     }
 }
 
-fizzBuzz(300);
+import readline from "readline";
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question("Write N ", (n) => {
+    fizzBuzz(parseInt(n));
+
+    rl.close();
+})
+
