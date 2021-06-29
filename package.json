@@ -1,0 +1,27 @@
+{
+  "name": "fizzbuzztraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Melinte/FizzBuzzTraining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-Melinte/FizzBuzzTraining/issues"
+  },
+  "homepage": "https://github.com/Paul-Melinte/FizzBuzzTraining#readme",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.5",
+    "ts-node": "^10.0.0"
+  }
+}
