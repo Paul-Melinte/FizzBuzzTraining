@@ -13,19 +13,20 @@ function fizzBuzz(n: number) {
         if(i % 7 == 0)
             strings.push("Bang");
     
-        if(i % 11 == 0){
-            strings.splice(0,strings.length);
+        if(i % 11 == 0) {
+            strings.splice(0, strings.length);
             strings.push("Bong")
         }
 
-        if(i % 13 == 0){
+        if(i % 13 == 0) {
             let j:number;
 
+            // Here we find the first string starting with B
             for(j = 0; j < strings.length; j++)
                 if(strings[j].charAt(0) == 'B')
                     break;
 
-            strings.splice(j,0,"Fezz");
+            strings.splice(j, 0, "Fezz");
         }
 
         if(i % 17 == 0)
