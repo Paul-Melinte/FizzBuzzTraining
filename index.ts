@@ -28,6 +28,9 @@ function fizzBuzz(n: number) {
             strings.splice(j,0,"Fezz");
         }
 
+        if(i % 17 == 0)
+            strings.reverse();
+
         if(strings.length == 0)
             console.log(i);
         else 
