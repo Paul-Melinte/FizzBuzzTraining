@@ -13,6 +13,10 @@ function fizzBuzz(n: number) {
         if(i % 7 == 0)
             strings.push("Bang");
     
+        if(i % 11 == 0){
+            strings.splice(0,strings.length);
+            strings.push("Bong")
+        }
 
         if(strings.length == 0)
             console.log(i);
